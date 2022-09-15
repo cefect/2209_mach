@@ -49,6 +49,11 @@ activate the environment we just created:
 source venv-sklearn-course/bin/activate
 ```
 
+> For Windows users, the above command needs to read:
+> ```sh
+> source venv-sklearn-course\Scripts\activate
+> ```
+
 install the required dependencies into this environment:
 ```sh
 python -m pip install -r ./pip-requirements.txt
@@ -60,7 +65,7 @@ You can now work in this environment.
 
 To make sure you have all the necessary packages installed, we **strongly
 recommend** you to execute the `check_env.py` script located at the root of
-this repository:
+this repository. For this, activate the virtual environment as documented above and run:
 
 ```sh
 python check_env.py
